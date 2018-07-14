@@ -1,0 +1,26 @@
+{
+  "name": "fixed2float",
+  "version": "1.0.0",
+  "description": "The package contains functions to convert fixed point to float and vice-versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameetgohil/fixed2float.git"
+  },
+  "keywords": [
+    "fixed",
+    "float",
+    "q-format",
+    "Q",
+    "format"
+  ],
+  "author": "Ameet Gohil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ameetgohil/fixed2float/issues"
+  },
+  "homepage": "https://github.com/ameetgohil/fixed2float#readme"
+}
