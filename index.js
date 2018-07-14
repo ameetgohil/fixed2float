@@ -1,6 +1,9 @@
+
+var exports = module.exports = {};
+
 const range = len => Array(len).fill().map((_,i) => i)
 
-const toFixed = (value, m, n) => {
+exports.toFixed = (value, m, n) => {
   if (value >= Math.pow(2,m-1)){
     return Math.pow(2,(m+n)-1)-1;
   }
@@ -21,7 +24,7 @@ const toFixed = (value, m, n) => {
   }
 }
 
-const toFloat = (value, m, n) => {
+exports.toFloat = (value, m, n) => {
   var floatVal = (value >> n) * 1.0;
   value = (Math.pow(2,n)-1)&value;
   range(n).map(i => {
