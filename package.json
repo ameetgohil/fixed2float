@@ -1,6 +1,6 @@
 {
   "name": "fixed2float",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The package contains functions to convert fixed point to float and vice-versa",
   "main": "index.js",
   "scripts": {
